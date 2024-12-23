@@ -1,0 +1,163 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Wedding</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-image: url('wedding-image.jpg'); /* Add your image path here */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5em;
+        }
+        
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Main Content */
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .story, .details, .gallery, .rsvp, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 2em;
+            text-align: center;
+            color: #b77d6d;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .rsvp form {
+            display: flex;
+            flex-direction: column;
+        }
+        .rsvp input, .rsvp button {
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 1em;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Lets join your  Wedding</h1>
+        <p>Our Forever Starts Here</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#story">Our Story</a>
+        <a href="#details">Event Details</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#rsvp">RSVP</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="story" class="story">
+        <h2>JOIN US TO MAKE YOUR SPECIAL DAY FABULOUS</h2>
+        
+        <!-- Add more story details -->
+    </section>
+
+    <section id="details" class="details">
+        <h2>Event Details</h2>
+        <p><strong>Wedding Date:</strong> 25th December 2024</p>
+        <p><strong>Location:</strong> The Grand Hotel, JAIPUR</p>
+        <!-- Add more details as needed -->
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/12/GO_9971.jpg" alt="Engagement Photo 1">
+        <img src="https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/12/GOK09793.jpg" alt="Engagement Photo 2">
+        <img src="https://d1hpn7r5i0azx7.cloudfront.net/wp-content/uploads/2016/07/072-99.jpg" alt="Engagement Photo 3">
+        <img src="https://th.bing.com/th/id/OIP.SEpKuCPr4sgh26rQRXEEPAAAAA?rs=1&amp;pid=ImgDetMain" alt="Engagement Photo 4">
+        <!-- Add more images -->
+    </section>
+
+    <section id="rsvp" class="rsvp">
+        <h2>RSVP</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required="">
+            <input type="email" name="email" placeholder="Your Email" required="">
+            <textarea name="message" placeholder="Any special message" rows="4"></textarea>
+            <button type="submit">Send RSVP</button>
+        </form>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Have questions? Feel free to reach out!</p>
+        <p>Email: <a href="mailto:contact@wedding.com">contact@wedding.com</a></p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Our Wedding | All Rights Reserved</p>
+    </footer>
+
+
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    
+
+</body></html>
